@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center !important;
+  background-color: aquamarine !important;
+  font-family:
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+}
+
+.container {
+  display: grid;
+  height: max-content;
+  border-radius: 10px;
+  padding: 2px;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: chartreuse;
+  border: 5px solid green;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 20px;
+}
+
+.input {
+  margin: 2px;
+  border: 5px solid green;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  margin-left: 280px;
+  margin-right: 280px;
+}
